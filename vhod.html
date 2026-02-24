@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Vhod</title>
+</head>
+<body style="font-family:sans-serif;text-align:center;margin-top:40px">
+
+<h2>Vhod</h2>
+
+<audio autoplay>
+  <source src="vhod.mp3" type="audio/mpeg">
+</audio>
+
+<p>Če se zvok ne predvaja, tapnite zaslon.</p>
+
+<script>
+document.body.addEventListener('click', () => {
+  document.querySelector('audio').play();
+});
+</script>
+
+</body>
+</html>
